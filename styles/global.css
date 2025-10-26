@@ -25,6 +25,12 @@ blockquote {
   padding: 0;
 }
 
+/* Сброс подчеркивания ссылок */
+
+ul, ol {
+  list-style: none;
+}
+
 a {
   color: inherit;
 }
@@ -33,6 +39,9 @@ img {
   width: 100%;
 }
 
+/* Сброс стандартных стилей кнопки */
+
 button {
+  all: unset;
   font: inherit;
 }
